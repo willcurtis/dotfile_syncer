@@ -33,24 +33,25 @@ The watcher is designed to:
 ⸻
 
 🛠 Setup Instructions
-	1.	Install dependencies (if not already installed):
+
+1.	Install dependencies (if not already installed):
 
 ```bash
 brew install fswatch
 brew install rsync
 ```
 
-	2.	Ensure SSH authentication with GitHub is configured:
+2.	Ensure SSH authentication with GitHub is configured:
 		•	Add your SSH key to GitHub.
 		•	Use the SSH remote URL (git@github.com:yourusername/dotfiles.git).
 	
-	3.	Clone this repository to your machine:
+3.	Clone this repository to your machine:
 
 ```bash
 git clone git@github.com:yourusername/dotfiles.git ~/Documents/GitHub/dotfiles
 ```
 
-	4.	Start the sync script manually for testing:
+4.	Start the sync script manually for testing:
 
 ```bash
 bash ~/Documents/GitHub/dotfiles/dotfile_syncer.sh
@@ -85,7 +86,7 @@ To run automatically at login:
 </plist>
 ```
 
-	2.	Load it:
+2.	Load it:
 
 ```bash
 launchctl load ~/Library/LaunchAgents/com.user.dotfilewatcher.plist
