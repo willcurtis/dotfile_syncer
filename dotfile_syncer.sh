@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
 # CONFIGURATION
 WATCHED_FILES=(
   "$HOME/.zshrc"
